@@ -1,0 +1,28 @@
+{
+	"api": {
+		"rubatotest": {
+			"service": "AppSync",
+			"providerPlugin": "awscloudformation",
+			"output": {
+				"authConfig": {
+					"additionalAuthenticationProviders": [],
+					"defaultAuthentication": {
+						"authenticationType": "API_KEY",
+						"apiKeyConfig": {
+							"description": "rubatotest",
+							"apiKeyExpirationDays": "30"
+						}
+					}
+				}
+			}
+		}
+	},
+	"auth": {
+		"rubatotest8559dd4f": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": [],
+			"customAuth": false
+		}
+	}
+}

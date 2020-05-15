@@ -1,0 +1,20 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-rubatotest-dev-102745-authRole",
+            "UnauthRoleArn": "arn:aws:iam::390019174833:role/amplify-rubatotest-dev-102745-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::390019174833:role/amplify-rubatotest-dev-102745-authRole",
+            "Region": "eu-west-1",
+            "DeploymentBucketName": "amplify-rubatotest-dev-102745-deployment",
+            "UnauthRoleName": "amplify-rubatotest-dev-102745-unauthRole",
+            "StackName": "amplify-rubatotest-dev-102745",
+            "StackId": "arn:aws:cloudformation:eu-west-1:390019174833:stack/amplify-rubatotest-dev-102745/f4c8d280-9685-11ea-ad95-069d65c3affc",
+            "AmplifyAppId": "d3i4om8ap138ez"
+        },
+        "categories": {
+            "auth": {
+                "rubatotest8559dd4f": {}
+            }
+        }
+    }
+}
